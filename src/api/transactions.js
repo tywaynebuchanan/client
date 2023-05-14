@@ -1,5 +1,5 @@
 import axiosInstance  from "./index";
-export const host = "http://localhost:5000"
+export const host = "https://brynks-api.vercel.app"
 
 export const verifyAcc = async (payload)=>{
     try {

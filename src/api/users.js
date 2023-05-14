@@ -1,5 +1,5 @@
 import axiosInstance  from "./index";
-const host = "http://localhost:5000"
+const host = "https://brynks-api.vercel.app"
 
 export const loginUser = async (payload)=>{
     try {
