@@ -1,12 +1,5 @@
 import React, {Fragment, useEffect} from "react"
 import PageTitle from "../../components/PageTitle"
-import {
-	useStripe,
-	useElements,
-	CardNumberElement,
-	CardExpiryElement,
-	CardCvcElement,
-} from "@stripe/react-stripe-js"
 import axios from "axios"
 import {useDispatch} from "react-redux"
 import {useSelector} from "react-redux"
