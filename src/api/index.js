@@ -5,6 +5,7 @@ const axiosInstance = axios.create({
   headers: {
     "Authorization": `Bearer ${token}`,
   },
+  baseUrL:"https://brynks-api.vercel.app"
 });
 
 export default axiosInstance;
